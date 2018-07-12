@@ -19,7 +19,7 @@ public class AutorDao {
 	public void aposCriacao() {
 		System.out.println("AutorDAO criado!");
 	}
-
+	
 	public void salva(Autor autor) {
 		manager.persist(autor);
 	}
